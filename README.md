@@ -1,11 +1,11 @@
-# 🍲 **TastyTales: Recipe Sharing Website (MERN)**
+# **TastyTales: Recipe Sharing Website (MERN)**
 
 **TastyTales** is a community-driven recipe-sharing platform built using the MERN stack.  
 It allows food lovers to explore, share, and manage recipes with rich features like voice search, image uploads, ratings, and comments.
 
 ---
 
-## 🎯 **Objective**
+## **Objective**
 The goal of TastyTales is to create a platform where:
 - **Unauthenticated users** can browse recipes.
 - **Authenticated users** can create, edit, and delete their own recipes.
@@ -13,15 +13,15 @@ The goal of TastyTales is to create a platform where:
 
 ---
 
-## ✨ **Features**
-- 🔐 **User Authentication** with JWT & Cookies
-- 📝 Create, edit, and delete recipes
-- 📷 Image upload via URL
-- 🔍 Search recipes (voice-enabled search supported)
-- ❤️ Save favorite recipes to personal profile
-- ⭐ Rate and comment on recipes
-- 📌 View featured recipes
-- 🌐 Fully responsive design
+## **Features**
+-  **User Authentication** with JWT & Cookies
+-  Create, edit, and delete recipes
+-  Image upload via URL
+-  Search recipes (voice-enabled search supported)
+-  Save favorite recipes to personal profile
+-  Rate and comment on recipes
+-  View featured recipes
+-  Fully responsive design
 
 ---
 
@@ -37,7 +37,7 @@ The goal of TastyTales is to create a platform where:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - frontend/ → React.js client code 
 - backend/ → Express.js + Node.js server code
@@ -47,7 +47,7 @@ The goal of TastyTales is to create a platform where:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the Repository**
    ```bash
@@ -95,7 +95,7 @@ The goal of TastyTales is to create a platform where:
 
 ---
 
-📸 **Screenshots**
+ **Screenshots**
 
  1. Login Page
     <img width="1919" height="910" alt="Screenshot 2025-08-08 184540" src="https://github.com/user-attachments/assets/7723e8d4-f42a-4bb8-b432-907786f53dc9" />
@@ -116,7 +116,7 @@ The goal of TastyTales is to create a platform where:
    <img width="1919" height="900" alt="Screenshot 2025-08-08 185121" src="https://github.com/user-attachments/assets/48ecb048-06e7-42b7-b09e-cf1db9182d69" />
 
 
-📜 **License**
+**License**
 This project is licensed under the MIT License.
 
 
