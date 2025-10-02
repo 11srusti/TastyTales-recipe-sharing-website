@@ -66,56 +66,32 @@ export const Allrecipe = () => {
     const handleSearchChange = (e) => {
         setSearchTerm(e.target.value);
     };
+
+    //Web Speech API
     const handleVoiceSearch = () => { 
-
         if (!('SpeechRecognition' in window || 'webkitSpeechRecognition' in window)) { 
-
             alert('Voice search is not supported in this browser.'); 
-
             return; 
-
         } 
 
- 
-
         const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)(); 
-
         recognition.lang = 'en-US'; 
-
         setRecognizing(true); 
-
- 
-
         recognition.start(); 
 
- 
-
         recognition.onresult = (event) => { 
-
             const transcript = event.results[0][0].transcript; 
-
             setSearchTerm(transcript); // Update searchTerm state 
-
             setRecognizing(false); 
-
         }; 
-
- 
-
+        
         recognition.onerror = (event) => { 
-
             console.error('Voice recognition error:', event.error); 
-
             setRecognizing(false); 
-
         }; 
-
  
-
         recognition.onend = () => { 
-
             setRecognizing(false); 
-
         }; 
 
     }; 
