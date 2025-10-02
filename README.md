@@ -7,7 +7,6 @@ It allows food lovers to explore, share, and manage recipes with rich features l
 
 ## **Objective**
 The goal of TastyTales is to create a platform where:
-- **Unauthenticated users** can browse recipes.
 - **Authenticated users** can create, edit, and delete their own recipes.
 - Users can search recipes (including **voice commands**), save favorites, and interact via ratings & comments.
 
