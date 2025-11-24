@@ -7,4 +7,4 @@ backend/node_modules/
 backend/*.cache/
 frontend/node_modules/.cache/
 frontend/node_modules/.cache/
-.env
+backend/.env
